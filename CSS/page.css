@@ -1,0 +1,90 @@
+/* .bandeau
+{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around 
+}  */
+
+/* ********************** IMAGES DEFILANTES EN HAUT ***************************** */
+#conteneur 
+{
+    position: relative;
+    width: 100%; 
+    height: 200px; /* dimension des images */
+}
+
+
+#conteneur #slider1 
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0; right:0; bottom:0; left:0;
+    padding:0; margin:0;
+}
+
+#slider1 .viewport ul.overview,
+#slider1 .viewport .overview li 
+{
+    padding: 2px;
+    margin: 2px;
+    border:0;
+}
+/* ********************************************************************************* */
+
+.page
+{
+    display: flex;
+}
+
+/* ********************* CONTENU AVEC RECETTE ************************************/
+.contenu
+{
+    width: 65%;
+    height: 500px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    /* background-image: url("./Images/fond.jpg"); */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#titre
+{
+    font-size: x-large;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+}
+
+#photo
+{
+    width: 60%;
+    height: 50px;
+}
+
+/* ********************* LIENS A GAUCHE ******************************************* */
+.liens
+{
+    width: 20%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.lien1
+{
+    text-align: center;
+    font-size: 25px;
+}
+
+
+/************* TEST - NE PAS CONSIDERER ************************/
+/* #test
+{
+    position: relative;
+    height: 100px;
+    width: 100px;
+    background: blue;
+} */
+
